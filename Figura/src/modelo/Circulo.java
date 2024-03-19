@@ -9,11 +9,11 @@ public class Circulo {
 
     public Circulo() {
     	
-        
+       
     }
 
    
-    public void Circulo(int radio) {
+    public Circulo(int radio) {
     	this.radio=radio;
     }
 
