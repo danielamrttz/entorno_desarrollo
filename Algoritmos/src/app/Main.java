@@ -10,6 +10,9 @@ public class Main {
 		
 		int sumatorio = Algoritmos.sumatorio(3);
 		System.out.println(sumatorio);
+		
+		int factorial= Algoritmos.factorial(4);
+		System.out.println(factorial);
 
 	}
 

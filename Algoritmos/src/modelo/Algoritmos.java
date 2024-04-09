@@ -17,5 +17,14 @@ public abstract class Algoritmos {
 		}
 		return resu;
 	}
-
+	
+	public static int factorial (int num) {
+		int resu=1;
+		
+		for(int i=1; i<=num; i++) {
+			resu*=i;
+			
+		}
+		return resu;
+	}
 }
