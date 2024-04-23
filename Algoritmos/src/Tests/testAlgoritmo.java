@@ -22,4 +22,15 @@ class testAlgoritmo {
 		assertEquals(numeroEsperado, numerObtenido);
 	}
 
+	@Test
+	void sumatorioParamIncorrecto() {
+		
+		Exception excepcion = assertThrows (IllegalArgumentException.class, () -> Algoritmos.sumatorio(-1));
+		
+		String esperado = "El número debe ser igual o superior a 0";
+		String obtenido = excepcion.getMessage();
+		assertEquals (esperado, obtenido);
+		
+	}
+
 }
